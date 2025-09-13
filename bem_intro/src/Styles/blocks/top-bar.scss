@@ -1,0 +1,36 @@
+
+.top-bar {
+  padding-block: 24px;
+  @include constentPaddingInline;
+  display: flex;
+  justify-content: space-between;
+
+  @include onTablets {
+    padding-block: 50px;
+  }
+
+  @include onDesktop {
+    padding-block: 50px;
+  }
+
+
+&__icons {
+  display: flex;
+  gap: 24px;
+  
+}
+
+&__logo {
+  display: flex;
+  height: 46px;
+
+  
+  &:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+  }
+  
+  }
+
+}
+
